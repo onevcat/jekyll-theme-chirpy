@@ -103,7 +103,7 @@ kramdown:
 
 # DO NOT change this unless you're a Pro user on Jekyll and Web development,
 # or you think you're smart enough to change other relevant URLs within this template.
-permalink: /posts/:title/
+permalink: /:year/:month/:title/
 
 defaults:
   -
@@ -184,7 +184,7 @@ exclude:
   - README.md
   - LICENSE
 
-sitemap_exclude:  # Sitemap will exclude the following items.
+  sitemap_exclude:  # Sitemap will exclude the following items.
   fuzzy:
     - /assets/
   accurate:
@@ -193,8 +193,32 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - /categories/
     - /tags/
     - /posts/
+    - /2011/
+    - /2012/
+    - /2013/
+    - /2014/
+    - /2015/
+    - /2016/
+    - /2017/
+    - /2018/
+    - /2019/
+    - /2020/
+    - /2021/
+    - /2022/
+    - /2023/
+    - /2024/
+    - /2025/
+    - /2026/
+    - /2027/
+    - /2028/
+    - /2029/
+    - /2030/
     - 404.html
     - feed.xml
     - sitemap.xml
     - robots.txt
     - redirects.json
+    - Brewfile
+    - Brewfile.lock.json
+    - build.sh
+    - config.codekit3

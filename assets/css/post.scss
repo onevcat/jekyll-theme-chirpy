@@ -67,9 +67,9 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
     @include btn-post-nav;
     color: var(--link-color);
     &:hover {
-      background: #2a408e;
+      background: #8e2a2a;
       color: #fff;
-      border-color: #2a408e;
+      border-color: #8e2a2a;
     }
     &.disabled {
       @include btn-post-nav;
@@ -80,6 +80,9 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
       &:hover {
         border-color: none;
       }
+    }
+    &.btn-outline-primary:active {
+        background: #b63030;
     }
     &.btn-outline-primary.disabled:focus {
       box-shadow: none;
@@ -296,6 +299,9 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
   }
 } // .license-wrapper
 
+.author {
+  color: var(--footer-link);
+}
 
 @media all and (max-width: 576px) {
   .post-tail-bottom {

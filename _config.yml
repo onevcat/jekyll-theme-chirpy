@@ -8,40 +8,32 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy                          # the main title
+title: OneV's Den
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
-
-description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
-
-# Replace with the website url, e.g. 'https://username.github.io'
-url: 'protocol://domain'
-
-author: your_full_name                  # change to your full name
-
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+tagline: 上善若水，人淡如菊
+description: >-
+    王巍现在是一名专注于 iOS 的职业开发者。他拥有对于 Swift，Objective-C 以及网络程序设计方面的深厚知识及多年实践经验。
+    他将这些技术运用于创建应用程序和通用框架等解决方案，其中很多都被用户喜爱，并被开发者社区广泛使用来构建其他软件。同时，
+    他是 ObjC 中国组织的发起人和领导者，为将最佳 iOS 实践和进阶技术引入中国而不断努力。
+    这里是王巍 (onevcat) 的博客，用来记录一些想法。
+url: 'https://onevcat.com'
+author: 王巍 (onevcat)
+avatar: /assets/images/avatar.jpg
 
 github:
-  username: github_username             # change to your github username
+  username: onevcat
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: onevcat
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: onevcat
+  email: onev@onevcat.com
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/onevcat
+    - https://twitter.com/onevcat
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: 1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw
 
 #--------------------------
 
@@ -51,22 +43,11 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
-
-google_analytics:
-  id: ''          # Fill with your Google Analytics ID
-  pv:
-    # The Google Analytics pageviews switch.
-    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
-    enabled: false
-    # the next options only valid when `google_analytics.pv` is enabled.
-    proxy_url: ''
-    proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
+timezone: Asia/Tokyo
 
 disqus:
   comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  shortname: 'onevcat'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 
 # Prefer color scheme setting, available values:
@@ -117,7 +98,7 @@ defaults:
       location: Post
       breadcrumb:
         -
-          label: Posts
+          label: 主页
           url: /
   -
     scope:
@@ -132,10 +113,10 @@ defaults:
       location: Tag
       breadcrumb:
         -
-          label: Home
+          label: 主页
           url: /
         -
-          label: Tags
+          label: 标签
           url: /tabs/tags/
   -
     scope:
@@ -145,10 +126,10 @@ defaults:
       location: Category
       breadcrumb:
         -
-          label: Home
+          label: 主页
           url: /
         -
-          label: Categories
+          label: 分类
           url: /tabs/categories/
   -
     scope:
@@ -158,7 +139,7 @@ defaults:
       dynamic_title: true    # Hide title in mobile screens.
       breadcrumb:
         -
-          label: Home
+          label: 主页
           url: /
 
 
@@ -184,7 +165,7 @@ exclude:
   - README.md
   - LICENSE
 
-  sitemap_exclude:  # Sitemap will exclude the following items.
+sitemap_exclude:  # Sitemap will exclude the following items.
   fuzzy:
     - /assets/
   accurate:
